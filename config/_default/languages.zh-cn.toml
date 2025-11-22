@@ -1,0 +1,28 @@
+disabled = false
+languageCode = "zh-cn"
+languageName = "Chinese (Simplified)"
+weight = 1
+title = "柑橘 Channel"
+
+[params]
+  displayName = "简体中文"
+  isoCode = "zh-cn"
+  rtl = false
+  dateFormat = "2006/01/02"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  description = "这是一个分享生活、研究技术的博客。"
+  copyright = "Copyright © { year } 柑橘Kanjuu. All rights reserved."
+
+[params.author]
+  name = "柑橘Kanjuu"
+  email = "howerlee@yeah.net"
+  image = "img/avatar.png"
+  imageQuality = 96
+  headline = "工程师 & 开发者" # 主页
+  bio = "心有所信 方能行远" # 页脚
+  links = [
+    { email = "mailto:howerlee@yeah.net" },
+    { github = "https://github.com/HowerL" },
+    { linkedin = "https://www.linkedin.com/in/lihaoweixm" }
+  ]

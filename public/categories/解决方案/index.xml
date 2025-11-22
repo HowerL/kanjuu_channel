@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>解决方案 on 柑橘 Channel</title>
+    <link>http://localhost:1313/categories/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
+    <description>Recent content in 解决方案 on 柑橘 Channel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>howerlee@yeah.net (柑橘Kanjuu)</managingEditor>
+    <webMaster>howerlee@yeah.net (柑橘Kanjuu)</webMaster>
+    <copyright>Copyright © 2025 柑橘Kanjuu. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 30 Nov 2022 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>全页变灰 CSS 代码</title>
+      <link>http://localhost:1313/posts/css-of-turn-website-to-gray/</link>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 +0800</pubDate>
+      <author>howerlee@yeah.net (柑橘Kanjuu)</author>
+      <guid>http://localhost:1313/posts/css-of-turn-website-to-gray/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>解决 Android 旧设备上因 Let&#39;s Encrypt 根证书过期导致的问题</title>
+      <link>http://localhost:1313/posts/solving-the-problem-caused-by-the-expiration-root-certificate-on-old-android-device/</link>
+      <pubDate>Tue, 30 Aug 2022 00:00:00 +0800</pubDate>
+      <author>howerlee@yeah.net (柑橘Kanjuu)</author>
+      <guid>http://localhost:1313/posts/solving-the-problem-caused-by-the-expiration-root-certificate-on-old-android-device/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Edge Chromium 中如何始终允许运行 Flash 内容</title>
+      <link>http://localhost:1313/posts/how-to-enable-flash-on-edge/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0800</pubDate>
+      <author>howerlee@yeah.net (柑橘Kanjuu)</author>
+      <guid>http://localhost:1313/posts/how-to-enable-flash-on-edge/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

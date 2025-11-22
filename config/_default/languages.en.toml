@@ -1,0 +1,28 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 2
+title = "Kanjuu Channel"
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2006/01/02"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  description = "This is a blog sharing life and researching technology."
+  copyright = "Copyright © { year } 柑橘Kanjuu. All rights reserved."
+
+[params.author]
+  name = "Kanjuu"
+  email = "howerlee@yeah.net"
+  image = "img/avatar.png"
+  imageQuality = 96
+  headline = "Engineer & Developer" # 主页
+  bio = "Faith leads to far" # 页脚
+  links = [
+    { email = "mailto:howerlee@yeah.net" },
+    { github = "https://github.com/HowerL" },
+    { linkedin = "https://www.linkedin.com/in/lihaoweixm" }
+  ]

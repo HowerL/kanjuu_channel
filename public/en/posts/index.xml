@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Kanjuu Channel</title>
+    <link>http://localhost:1313/en/posts/</link>
+    <description>Recent content in Posts on Kanjuu Channel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>howerlee@yeah.net (Kanjuu)</managingEditor>
+    <webMaster>howerlee@yeah.net (Kanjuu)</webMaster>
+    <copyright>Copyright © 2025 柑橘Kanjuu. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 22 Nov 2025 01:57:17 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+{{ $url := default "#" (.Get "url") }} {{ $title := default "链接标题" (.Get
+"title") }} {{$description := default "" (.Get "description") }} {{$icon :=
+default "/favicon.ico" (.Get "icon") }}
+
+<a
+  href="{{ $url }}"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="block not-prose p-4 border border-neutral-200 dark:border-neutral-700 rounded-lg shadow-md transition-all duration-300 hover:shadow-xl group"
+>
+  <div class="flex not-prose items-center">
+    <img
+      src="{{ $icon }}"
+      alt="{{ $title }} Icon"
+      class="me-4 object-cover nozoom"
+      style="height: 3rem"
+    />
+
+    <div class="flex-grow min-w-0">
+      <h3
+        class="text-lg font-semibold mb-1 truncate text-neutral-800 dark:text-neutral-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 line-clamp-1"
+      >
+        {{ $title }}
+      </h3>
+      <p class="text-sm text-neutral-600 dark:text-neutral-400 line-clamp-1">
+        {{ $description }}
+      </p>
+    </div>
+  </div>
+</a>
