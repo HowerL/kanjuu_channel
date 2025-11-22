@@ -3,6 +3,21 @@
 /resources/_gen/
 .hugo_build.lock
 
+# 自定义缓存和临时目录
+.hugo_cache/
+.publish/
+/_vendor/
+
+# 部署相关文件
+.deploy_git/
+.netlify/
+vercel.json
+
+# 本地开发配置
+local.toml
+development.toml
+/hugo_stats.json
+
 # Hugo 可执行文件
 hugo.exe
 hugo.linux
@@ -60,29 +75,9 @@ yarn-error.log
 *.backup
 *.backup*
 
-# Front Matter 工具备份
-tools/add_frontmatter_backups/
-
 # 压缩文件
 #*.tar.gz
 #*.zip
-
-# 自定义缓存和临时目录
-.hugo_cache/
-.publish/
-/_vendor/
-
-# 主题文件 (如果使用 git submodule 管理主题)
-themes/* (如果不想版本控制主题文件可以取消注释)
-
-# 部署相关文件
-.deploy_git/
-.netlify/
-vercel.json
-
-# 本地开发配置
-local.toml
-development.toml
 
 # 数据库文件
 *.db
@@ -96,6 +91,3 @@ development.toml
 # 系统生成的文件
 *.orig
 .history/
-
-/.obsidian/workspace.json
-/hugo_stats.json

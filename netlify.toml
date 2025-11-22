@@ -3,8 +3,8 @@
   publish = "public"
 
 [build.environment]
-    NODE_ENV = "production"
-    GO_VERSION = "1.16"
+  NODE_ENV = "production"
+  GO_VERSION = "1.25.4"
 	TZ = "Asia/Shanghai"
 
 [context.production.environment]
